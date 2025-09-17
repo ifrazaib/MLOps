@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/Afra%20Zaib/Semester%207th/ML%20Ops/ML_Ops_Assignment_1/mlruns/957720066915397410/cd145706f8ff48c09846e474788d383f/artifacts
+end_time: 1758045669156
+entry_point_name: ''
+experiment_id: '957720066915397410'
+lifecycle_stage: active
+run_id: cd145706f8ff48c09846e474788d383f
+run_name: comparison_chart
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1758045669027
+status: 3
+tags: []
+user_id: Afra

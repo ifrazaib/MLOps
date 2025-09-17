@@ -1,0 +1,10 @@
+artifact_location: file:///D:/Afra%20Zaib/Semester%207th/ML%20Ops/ML_Ops_Assignment_1/mlruns/957720066915397410/models/m-30a79bd61727439b951c9174793c918d/artifacts
+creation_timestamp: 1758045631824
+experiment_id: '957720066915397410'
+last_updated_timestamp: 1758045648821
+model_id: m-30a79bd61727439b951c9174793c918d
+model_type: null
+name: logistic_regression_model
+source_run_id: 99a2f920820c41bcb0df846ee60f13cd
+status: 2
+status_message: null

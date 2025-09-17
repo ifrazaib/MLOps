@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/Afra%20Zaib/Semester%207th/ML%20Ops/ML_Ops_Assignment_1/mlruns/957720066915397410/8a6b0fdb42e94c138e6d7e52474955d3/artifacts
+end_time: 1758045668423
+entry_point_name: ''
+experiment_id: '957720066915397410'
+lifecycle_stage: active
+run_id: 8a6b0fdb42e94c138e6d7e52474955d3
+run_name: svm
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1758045659547
+status: 3
+tags: []
+user_id: Afra
