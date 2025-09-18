@@ -1,0 +1,10 @@
+artifact_location: file:///D:/Afra%20Zaib/Semester%207th/ML%20Ops/MLOps/mlruns/677186559604464196/models/m-c65c654f0f474024aa883f263bd2e848/artifacts
+creation_timestamp: 1758174404514
+experiment_id: '677186559604464196'
+last_updated_timestamp: 1758174412280
+model_id: m-c65c654f0f474024aa883f263bd2e848
+model_type: null
+name: SVM_(Poly)
+source_run_id: 65df4c4e4a4b47fa87e21036ae7dadc9
+status: 2
+status_message: null

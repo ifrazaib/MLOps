@@ -1,0 +1,10 @@
+artifact_location: file:///D:/Afra%20Zaib/Semester%207th/ML%20Ops/MLOps/mlruns/677186559604464196/models/m-c35a2d2dbec84fc09ba13ffa21e89d8b/artifacts
+creation_timestamp: 1758174798032
+experiment_id: '677186559604464196'
+last_updated_timestamp: 1758174804312
+model_id: m-c35a2d2dbec84fc09ba13ffa21e89d8b
+model_type: null
+name: model
+source_run_id: ca412b6cb94b4d40b3cad89329bd7eed
+status: 2
+status_message: null

@@ -1,0 +1,10 @@
+artifact_location: file:///D:/Afra%20Zaib/Semester%207th/ML%20Ops/MLOps/mlruns/677186559604464196/models/m-b9ca0f41f21a43ec809f7ee4b664550a/artifacts
+creation_timestamp: 1758174396997
+experiment_id: '677186559604464196'
+last_updated_timestamp: 1758174403720
+model_id: m-b9ca0f41f21a43ec809f7ee4b664550a
+model_type: null
+name: Random_Forest
+source_run_id: eb26c22d5d424d77952336391c2b4818
+status: 2
+status_message: null

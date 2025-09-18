@@ -1,0 +1,10 @@
+artifact_location: file:///D:/Afra%20Zaib/Semester%207th/ML%20Ops/MLOps/mlruns/677186559604464196/models/m-738c8e87a2f2423abcd6450bf3220d99/artifacts
+creation_timestamp: 1758174789660
+experiment_id: '677186559604464196'
+last_updated_timestamp: 1758174796544
+model_id: m-738c8e87a2f2423abcd6450bf3220d99
+model_type: null
+name: Neural_Network
+source_run_id: 89d1baaca75443f3ab6efdbba4315849
+status: 2
+status_message: null

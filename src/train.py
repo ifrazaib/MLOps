@@ -68,10 +68,9 @@ for name, model in models.items():
 with open("results/metrics.json", "w") as f:
     json.dump(metrics, f, indent=4)
 
-# Convert metrics to DataFrame
+
 metrics_df = pd.DataFrame(metrics).T
 
-# === Combined Comparison Graph ===
 plt.figure(figsize=(10, 6))
 metrics_df.plot(kind="bar")
 plt.title("Model Performance Comparison")
@@ -83,7 +82,7 @@ plt.tight_layout()
 plt.savefig("results/model_comparison_all_metrics.png")
 plt.close()
 
-# === Separate Graphs for Each Metric ===
+
 for metric in ["accuracy", "precision", "recall", "f1_score"]:
     plt.figure(figsize=(8, 5))
     sns.barplot(x=metrics_df.index, y=metrics_df[metric])
@@ -95,7 +94,7 @@ for metric in ["accuracy", "precision", "recall", "f1_score"]:
     plt.savefig(f"results/{metric}_comparison.png")
     plt.close()
 
-print("✅ Training complete! Models saved in /models and metrics + charts in /results/")
+print("Training complete! Models saved in /models and metrics + charts in /results/")
 print("\n=== Model Comparison Results ===")
 for model_name, vals in metrics.items():
     print(f"\n{model_name}:")

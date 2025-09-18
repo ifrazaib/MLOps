@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/Afra%20Zaib/Semester%207th/ML%20Ops/MLOps/mlruns/677186559604464196/eb26c22d5d424d77952336391c2b4818/artifacts
+end_time: 1758174403749
+entry_point_name: ''
+experiment_id: '677186559604464196'
+lifecycle_stage: active
+run_id: eb26c22d5d424d77952336391c2b4818
+run_name: Random Forest
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1758174395854
+status: 3
+tags: []
+user_id: Afra

@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/Afra%20Zaib/Semester%207th/ML%20Ops/MLOps/mlruns/677186559604464196/753ec92eb2394cbc84f99b4bbb7dd802/artifacts
+end_time: 1758174959984
+entry_point_name: ''
+experiment_id: '677186559604464196'
+lifecycle_stage: active
+run_id: 753ec92eb2394cbc84f99b4bbb7dd802
+run_name: Logistic Regression
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1758174949669
+status: 3
+tags: []
+user_id: Afra

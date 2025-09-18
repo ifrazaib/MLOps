@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/Afra%20Zaib/Semester%207th/ML%20Ops/MLOps/mlruns/677186559604464196/70fd6a4e5b314df6a5fc954a4ed21365/artifacts
+end_time: 1758174975389
+entry_point_name: ''
+experiment_id: '677186559604464196'
+lifecycle_stage: active
+run_id: 70fd6a4e5b314df6a5fc954a4ed21365
+run_name: SVM (Poly)
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1758174968436
+status: 3
+tags: []
+user_id: Afra
