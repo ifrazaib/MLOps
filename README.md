@@ -57,11 +57,14 @@ All model runs were tracked in MLflow:
 
 ### MLflow UI Screenshots (Placeholders)
 - **Runs Comparison:**
-![MLflow Runs](results/screenshots/mlflow_runs.png)  
+<img width="1000" height="600" alt="comparison_chart" src="https://github.com/user-attachments/assets/97b3eaac-e455-4096-9c2d-a4c8cdc8cc28" />
+
 - **Metrics Visualization:**
-![MLflow Metrics](results/screenshots/mlflow_metrics.png)  
+<img width="500" height="400" alt="random_forest_confusion_matrix" src="https://github.com/user-attachments/assets/a6908715-eb30-448c-ae16-3d87834dad5c" />
+
 - **Confusion Matrices / Plots:**
-![Artifacts](results/screenshots/artifacts.png)
+<img width="500" height="400" alt="logistic_regression_confusion_matrix" src="https://github.com/user-attachments/assets/11bdcc34-9efb-4d44-b36e-6a32fc8e08c9" />
+
 
 ---
 
@@ -70,16 +73,70 @@ All model runs were tracked in MLflow:
 - Registered in **MLflow Model Registry** as `WineClassifier`.
 
 ### Registration Screenshot Placeholder
-![Registered Model](results/screenshots/mlflow_registry.png)
+<img width="975" height="494" alt="image" src="https://github.com/user-attachments/assets/f3fae75e-c500-4a40-ba23-e2c1a30628a6" />
+<img width="975" height="496" alt="image" src="https://github.com/user-attachments/assets/35d4ec31-8d4d-4fa9-8d34-de4124a26ae5" />
 
-**Code snippet for registration:**
 
-mlflow.end_run()  # ensure no active run
-with mlflow.start_run(run_name=f"{best_model_name}_Registration") as run:
-    best_model = models[best_model_name]
-    mlflow.sklearn.log_model(
-        sk_model=best_model,
-        artifact_path="model",
-        registered_model_name="WineClassifier"
-    )
---- 
+----
+
+- mlflow.end_run()  # ensure no active run
+- with mlflow.start_run(run_name=f"{best_model_name}_Registration") as run:
+-  best_model = models[best_model_name]
+-  mlflow.sklearn.log_model(
+-       sk_model=best_model,
+-      artifact_path="model",
+-    registered_model_name="WineClassifier"
+-    )
+     --- 
+## 📂 Dataset
+- **Dataset Name:** Wine dataset (`data/wine.csv`)  
+- **Target:** `target` column (wine classes)  
+- **Features:** Various physicochemical properties of wine samples.  
+
+---
+
+## ⚙️ Project Structure
+- <img width="447" height="284" alt="image" src="https://github.com/user-attachments/assets/a72baa97-b04a-45ec-9704-a8c8a7fc5245" />
+---
+## 🚀 How to Run the Project
+
+### 1️⃣ Clone Repository
+- git clone <your-repo-link>
+- cd MLOps_Wine_Project
+## 2️⃣ Create Environment
+- pip install -r requirements.txt
+- conda env create -f environment.yml
+- conda activate mlops-assignment
+## 3️⃣ Run Training
+- python src/ml_flow_train.py
+## 4️⃣ Start MLflow UI
+- mlflow ui
+- Open http://127.0.0.1:5000 -> to explore runs and compare models.
+---
+
+## 📊 MLflow Tracking
+- Each run logs:
+
+- Parameters: model hyperparameters
+
+- Metrics: accuracy, precision, recall, F1-score
+
+- Artifacts: plots (comparison charts, per-metric barplots), confusion matrices, model .pkl files
+
+- Registered Model: best-performing model is registered in MLflow Model Registry with version tracking
+---
+
+## Best Model Selection
+
+- After all runs, the script selects the best-performing model based on accuracy.
+
+- This model is registered in MLflow with version control.
+---
+## 1️⃣1️⃣ Conclusion
+- Summarize results: best model, metrics, MLflow tracking, and model registration.
+
+- Optionally mention reproducibility and GitHub repository link.
+## 1️⃣2️⃣ Credits
+- This project was entirely developed and implemented by Ifra Zaib .
+- All code, MLflow setup, training, evaluation, and documentation are done by the author.
+
