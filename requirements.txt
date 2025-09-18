@@ -1,0 +1,2 @@
+echo "numpy==1.25.0" >> requirements.txt
+echo "pandas==2.1.0" >> requirements.txt
